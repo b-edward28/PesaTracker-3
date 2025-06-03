@@ -103,7 +103,7 @@ def add_expense_for_user(user):
 
     # Check against category-specific budget
     if budget and new_total > budget.amount:
-        print(f"Warning: This expense will exceed your budget for '{category_name}' (Ksh {budget.amount}).")
+        print(f"Warning: You have exceeded your budget for '{category_name}' (Ksh {budget.amount}).")
         confirm = input("Do you still want to add the expense? (y/n): ").strip().lower()
         if confirm != 'y':
             print("Expense not added.")
