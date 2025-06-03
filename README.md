@@ -18,6 +18,16 @@ PesaTracker is a command-line application designed to help users track their per
 
 ---
 
+## Technologies Used
+
+- **Python** – Core language used for development.
+- **SQLAlchemy** – ORM for handling the database models and queries.
+- **SQLite** – Lightweight relational database used for storing user and expense data.
+- **Alembic** – For managing database migrations.
+- **Pipenv** – For virtual environment and dependency management.
+
+---
+
 ## Setup Instructions
 
 1. **Clone the Repository**
@@ -31,7 +41,7 @@ pipenv install
 
 3. **Install Alembic for migrations**
 
-pipenv install alembic --dev
+pipenv install alembic 
 
 4. **Activate the virtual Environment**
 
@@ -44,3 +54,12 @@ alembic upgrade head
 6. **Start Application**
 
 python -m lib.cli
+
+---
+
+## Support/Contact
+
+**Brendah Edward**
+**Email:** edwardbrendah28@gmail.com
+
+
